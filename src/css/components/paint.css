@@ -3,23 +3,21 @@
 }
 
 .reactCss_border{
-  border-radius:0.8rem 0.8rem 0.8rem 0.8rem;
+  border-radius:0.3rem 0.3rem 0.3rem 0.3rem;
   border:solid black 3px;
-  background:green;
   }
 
 .reactCss_footer,.reactCss_header{
-    padding:1.5rem;
     text-align:center;
     background:red;
 }
-.reactCss_footer{border-radius:0 0 0.8rem 0.8rem;}
-.reactCss_header{border-radius:0.8rem 0.8rem 0 0;}
+.reactCss_footer{border-radius:0 0 0.3rem 0.3rem;}
+
 .reactCss_salad
 ,.reactCss_ketchup
 ,.reactCss_pattie
   {
-  padding:0.8rem 0.8rem 0.8rem 1rem;
+  /* padding:0.8rem 0.8rem 0.8rem 1rem; */
   text-align:left;
   color:	#f8f8ff;
 }

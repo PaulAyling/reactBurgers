@@ -9,14 +9,14 @@ import "../css/components/window.css";
 import "../css/components/menu.css";
 
 const CodeContainerMolecule = (props) => {
+  const child = (
+    <p className="container_component_text">
+      {props.text}
+    </p>)
   return (
-    <section id={props.section_Id} 
-    className={props.section_Name}>
-      {props.textIsCode ? 1 : '<pre>'}
-        <p className="container_component_text">
-          {props.section_text}
-        </p>
-        {props.textIsCode ? 1 : '</pre>'}
+    <section id={props.CodeContainerMolecule_Id} 
+    className={props.CodeContainerMolecule_Style +" padding-sm"}>
+  {props.textIsCode === "1" ? (<pre> {props.text}</pre>) : child }
     </section>
   );
 };

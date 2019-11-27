@@ -1,12 +1,14 @@
 .reactMenu_ContainerWidth{
   width:800px;
-  margin:auto
+  margin:auto;
+  border: 10px solid yellow;
 } 
 
 .reactMenu_bunBottom, .reactMenu_bun{
     padding:1.5rem;
     text-align:center;
-    background:palegoldenrod;
+    background:gray;
+    background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
 }
 
 .reactMenu_salad
@@ -18,8 +20,8 @@
   color:	black;
 }
 .reactMenu_name{text-align:center;}
-.reactMenu_salad {background:palegoldenrod;}
-.reactMenu_ketchup{background:palegoldenrod;}
-.reactMenu_pattie{background:palegoldenrod;}
-.reactMenu_footer{background:palegoldenrod;;}
+.reactMenu_salad {background:yellow; background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=80);}
+.reactMenu_ketchup{background:yellow; background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=80);}
+.reactMenu_pattie{background:yellow; background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=80);}
+.reactMenu_footer{background:yellow; background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);}
 
