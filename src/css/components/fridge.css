@@ -1,0 +1,32 @@
+.reactFridge_ContainerWidth{
+  width:300px
+}
+
+
+.reactFridge_border{
+  border-radius:0.8rem 0.8rem 0.8rem 0.8rem;
+  border:solid black 3px;
+  background:darkblue;
+  }
+
+.reactFridge_footer,.reactFridge_header{
+    padding:1.5rem;
+    text-align:center;
+    background:lightgray;
+}
+.reactFridge_footer{border-radius:0 0 0.8rem 0.8rem;}
+.reactFridge_header{border-radius:0.8rem 0.8rem 0 0;}
+.reactFridge_salad
+,.reactFridge_ketchup
+,.reactFridge_pattie
+  {
+  padding:0.8rem 0.8rem 0.8rem 1rem;
+  text-align:left;
+  color:	#f8f8ff;
+}
+.reactFridge_name{text-align:center;}
+.reactFridge_salad {background:white;}
+.reactFridge_ketchup{background:white;}
+.reactFridge_pattie{background:white;}
+.reactFridge_footer{background:white;;}
+

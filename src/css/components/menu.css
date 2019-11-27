@@ -1,0 +1,24 @@
+.reactMenu_ContainerWidth{
+  width:300px
+} 
+
+.reactMenu_footer,.reactMenu_header{
+    padding:1.5rem;
+    text-align:center;
+    background:lightblue;
+}
+
+.reactMenu_salad
+,.reactMenu_ketchup
+,.reactMenu_pattie
+  {
+  padding:0.8rem 0.8rem 0.8rem 1rem;
+  text-align:left;
+  color:	#f8f8ff;
+}
+.reactMenu_name{text-align:center;}
+.reactMenu_salad {background:lightblue;}
+.reactMenu_ketchup{background:lightblue;}
+.reactMenu_pattie{background:lightblue;}
+.reactMenu_footer{background:green;;}
+

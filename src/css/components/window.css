@@ -1,0 +1,30 @@
+
+
+.codeContainer{
+  border:solid black 2px;
+  }
+
+.reactWindow_ContainerWidth{
+  width:500px
+} 
+.reactWindow_footer,.reactWindow_header{
+    padding:1.5rem;
+    text-align:center;
+    background:lightblue;
+
+}
+
+.reactWindow_salad
+,.reactWindow_ketchup
+,.reactWindow_pattie
+  {
+  padding:0.8rem 0.8rem 0.8rem 1rem;
+  text-align:left;
+  color:	#f8f8ff;
+}
+.reactWindow_name{text-align:center;}
+.reactWindow_salad {background:lightblue;}
+.reactWindow_ketchup{background:lightblue;}
+.reactWindow_pattie{background:lightblue;}
+.reactWindow_footer{background:lightblue;;}
+

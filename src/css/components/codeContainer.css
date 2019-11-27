@@ -1,0 +1,18 @@
+/* CodeContainer Styles */
+
+.restaurant-row{
+  display:flex;
+  justify-content: space-between;
+}
+
+.code-container{
+  margin:5px;
+}
+.component_grid {
+  display: flex;
+  flex-direction: row;
+}
+.codeContainer{
+margin:0 3px 0 3px;
+
+}

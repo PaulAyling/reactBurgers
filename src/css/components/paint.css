@@ -1,0 +1,31 @@
+.reactCss_ContainerWidth{
+  width:300px
+}
+
+.reactCss_border{
+  border-radius:0.8rem 0.8rem 0.8rem 0.8rem;
+  border:solid black 3px;
+  background:green;
+  }
+
+.reactCss_footer,.reactCss_header{
+    padding:1.5rem;
+    text-align:center;
+    background:red;
+}
+.reactCss_footer{border-radius:0 0 0.8rem 0.8rem;}
+.reactCss_header{border-radius:0.8rem 0.8rem 0 0;}
+.reactCss_salad
+,.reactCss_ketchup
+,.reactCss_pattie
+  {
+  padding:0.8rem 0.8rem 0.8rem 1rem;
+  text-align:left;
+  color:	#f8f8ff;
+}
+.reactCss_name{text-align:center;}
+.reactCss_salad {background:red;}
+.reactCss_ketchup{background:red;}
+.reactCss_pattie{background:red;}
+.reactCss_footer{background:red;;}
+

@@ -11,7 +11,7 @@ const Navbar = ({ title }) => {
       <nav className="nav-wrapper brown">
         <div>
           <a href="#" className="brand-logo"><img className="navbar_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png"></img>
-            REACT BURGERS!
+            BURGERS!
           </a>
           <a href="#" className="sidenav-trigger" data-target="mobile-links">
             <i
