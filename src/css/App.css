@@ -1,2 +1,18 @@
 /* Global App Styles */
 /* For COmponent level CSS see ./component folder */
+
+/* CDNS */
+  /* Fonts */
+  @import url("https://fonts.googleapis.com/css?family=Roboto");
+  /* Materialize */
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+  @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* CUSTOM CSS */
+/* @import './global.css'; */
+/* @import './materializeOverides.css'; */
+
+/* PAGES */
+@import './components/reactBurgers2.css';
+@import './components/reactBurgersBoring.css';
+
+@import './components/reactFolderStructure.css';
