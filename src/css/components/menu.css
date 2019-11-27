@@ -1,11 +1,12 @@
 .reactMenu_ContainerWidth{
-  width:300px
+  width:800px;
+  margin:auto
 } 
 
-.reactMenu_footer,.reactMenu_header{
+.reactMenu_bunBottom, .reactMenu_bun{
     padding:1.5rem;
     text-align:center;
-    background:lightblue;
+    background:palegoldenrod;
 }
 
 .reactMenu_salad
@@ -14,11 +15,11 @@
   {
   padding:0.8rem 0.8rem 0.8rem 1rem;
   text-align:left;
-  color:	#f8f8ff;
+  color:	black;
 }
 .reactMenu_name{text-align:center;}
-.reactMenu_salad {background:lightblue;}
-.reactMenu_ketchup{background:lightblue;}
-.reactMenu_pattie{background:lightblue;}
-.reactMenu_footer{background:green;;}
+.reactMenu_salad {background:palegoldenrod;}
+.reactMenu_ketchup{background:palegoldenrod;}
+.reactMenu_pattie{background:palegoldenrod;}
+.reactMenu_footer{background:palegoldenrod;;}
 

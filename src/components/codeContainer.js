@@ -12,6 +12,7 @@ const CodeContainer = (props) => {
     const codeRender = props.Data.map(Data => {
       return (
         <div id="codeContainer" className={props.Styles[0].componentBorder}>
+          
           <section id="Filename" className={props.Styles[0].filenameSection}>
             <h3 className={props.Styles[0].filename}>{Data.filename}</h3>
          

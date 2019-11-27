@@ -131,7 +131,7 @@ return (
   styles:[
     {
       component_Name:"paint",
-      codeContainerWidth:"reactCss_ContainerWidth",
+      codeContainerWidth:"paint_ContainerWidth",
       componentBorder: "reactCss_border",
       filenameSection:"reactCss_header",
       filename:"reactCss_name",
@@ -143,7 +143,7 @@ return (
     },
     {
       component_Name:"fridge",
-      codeContainerWidth:"fridge_ContainerWidth",
+      codeContainerWidth:"reactFridge_ContainerWidth",
       componentBorder: "reactFridge_border",
       filenameSection:"reactFridge_header",
       filename:"reactFridge_name",
@@ -155,7 +155,7 @@ return (
     },
     {
       component_Name:"window",
-      codeContainerWidth:"window_ContainerWidth",
+      codeContainerWidth:"reactWindow_ContainerWidth",
       filenameSection:"reactWindow_header",
       filename:"reactWindow_name",
       importsSection:"reactWindow_salad",
@@ -165,7 +165,7 @@ return (
     },
     {
       component_Name:"menu",
-      codeContainerWidth:"menu_ContainerWidth",
+      codeContainerWidth:"reactMenu_ContainerWidth",
       filenameSection:"reactMenu_bun",
       filename:"reactMenu_name",
       importsSection:"reactMenu_salad",
