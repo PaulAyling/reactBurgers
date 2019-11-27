@@ -1,2 +1,0 @@
-# reactBurgers
-Created with CodeSandbox
