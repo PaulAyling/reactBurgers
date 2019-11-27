@@ -1,0 +1,12 @@
+/* helper css I like to use  */
+
+
+.margin_sm{
+  margin:1rem 10rem 1rem 1rem  ;
+}
+
+.navbar_img {
+  width:73px;
+  height:51px;
+  vertical-align: middle;
+}

@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../css/materializeOverides.css";
+import '../../css/globalCustom.css';
+
+
+
 const Navbar = ({ title }) => {
   return (
     <div>
-      <nav className="nav-wrapper indigo">
+      <nav className="nav-wrapper brown">
         <div>
-          <a href="#" className="brand-logo">
+          <a href="#" className="brand-logo"><img className="navbar_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png"></img>
             REACT BURGERS!
           </a>
           <a href="#" className="sidenav-trigger" data-target="mobile-links">
