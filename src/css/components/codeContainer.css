@@ -5,9 +5,21 @@ pre{
 p {
   margin:0
 }
+.onShelf{
+  display:flex;
+  flex-direction: row;
+}
+.shelf{
+  height:30px;
+  border-radius: 0.4rem  0.4rem  0.4rem  0.4rem;
+  background:brown;
+  width:100%;
+  text-align: center;
+}
 .restaurant-row{
   display:flex;
   justify-content: space-between;
+  align-items: flex-end
 }
 
 .code-container{

@@ -1,0 +1,29 @@
+.reactBurger_ContainerWidth{
+  width:300px
+}
+
+.reactBurger_border{
+  border-radius:0.3rem 0.3rem 0.3rem 0.3rem;
+  border:solid black 3px;
+  }
+
+.reactBurger_bunBottom,.reactBurger_bun{
+    text-align:center;
+    background: #fbc02d ;
+}
+.reactBurger_bun{border-radius:2rem 2rem 1rem 1rem ;height:4rem; padding:1rem}
+.reactBurger_bunBottom{border-radius:0 0 1rem 1rem;}
+
+.reactBurger_salad
+,.reactBurger_ketchup
+,.reactBurger_pattie
+  {
+  border-radius:0.8rem 0.8rem 0.3rem 0.3rem ;height:3rem;
+  text-align:left;
+  color:	#f8f8ff;
+}
+.reactBurger_name{text-align:center;}
+.reactBurger_salad {background:green;height:10rem}
+.reactBurger_ketchup{background:red;height:10rem}
+.reactBurger_pattie{background:#725300;height:20rem}
+.reactBurger_footer{background:red;height:10rem}

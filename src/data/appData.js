@@ -1,7 +1,7 @@
 const AppData = {
   data: [
     {
-      componentName:"menu",
+      componentName:"BURGER",
       filename:"App.js",
       importPaths:`import React from 'react';
 import BookList from './components/BookList';
@@ -56,7 +56,27 @@ robots.txt`,
       definePrototypes:"",
       exportComponent:""
     },
-    
+    {
+      componentName:"menu",
+      filename:"App.js",
+      importPaths:`import React from 'react';
+import BookList from './components/BookList';
+import Navbar from './components/Navbar';
+import ThemeContextProvider from './contexts/ThemeContext';`,
+      defineComponent:`function App() {`,
+      variablesAndFunctions:"",
+      returnJsx:`return (
+        <div className="App">
+          <ThemeContextProvider>
+            <Navbar />
+            <BookList />
+          </ThemeContextProvider>
+        </div>
+      );
+    }`,
+      definePrototypes:"",
+      exportComponent:"export default App;"
+    },
     {
       filename:"BookList.js",
       importPaths:`import React, { Component } from 'react';
@@ -156,6 +176,7 @@ return (
     {
       component_Name:"window",
       codeContainerWidth:"reactWindow_ContainerWidth",
+      componentBorder: "reactWindow_border",
       filenameSection:"reactWindow_header",
       filename:"reactWindow_name",
       importsSection:"reactWindow_salad",
@@ -174,16 +195,17 @@ return (
       exportsSection:"reactMenu_bunBottom"
 
     },
-      {
-        component_Name:"burger",
-        codeContainerWidth:"burger_ContainerWidth",
-        filename:"reactBurger_name",
-        importsSection:"reactBurger_salad",
-        definitionSection:"reactBurger_ketchup",
-        returnSection:"reactBurger_pattie",
-        exportsSection:"reactBurger_bunBottom"
-  
-      },
+    {
+      component_Name:"burger",
+      codeContainerWidth:"reactBurger_ContainerWidth",
+      filenameSection:"reactBurger_bun",
+      filename:"reactBurger_name",
+      importsSection:"reactBurger_salad",
+      definitionSection:"reactBurger_ketchup",
+      returnSection:"reactBurger_pattie",
+      exportsSection:"reactBurger_bunBottom"
+
+    },
   ]
 
 };

@@ -1,6 +1,6 @@
 /* helper css I like to use  */
 .page-container{
-margin-top:3rem;
+margin:2rem;
 }
 
 .margin_sm{
@@ -11,4 +11,13 @@ margin-top:3rem;
   width:73px;
   height:51px;
   vertical-align: middle;
+}
+
+pre {
+  font-size:0.9rem;
+  white-space: pre-wrap;       /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }

@@ -20,18 +20,6 @@ const CodeContainerMolecule = (props) => {
     </section>
   );
 };
-   
 
-// propTypes = {
-//   section_Id: PropTypes.string,
-//   section_Name: PropTypes.string,
-//   section_text: PropTypes.string,
-// };
-
-// defaultProps = {
-//   section_Id: "tets",
-//   section_Name: "tets",
-//   section_text: "tets",
-// };
 
 export default CodeContainerMolecule

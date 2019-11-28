@@ -1,5 +1,6 @@
 .reactFridge_ContainerWidth{
-  width:300px
+  width:300px;
+  height:400px;
 }
 
 
@@ -22,7 +23,7 @@
   {
   padding:0.8rem 0.8rem 0.8rem 1rem;
   text-align:left;
-  color:	#f8f8ff;
+  color:	black;
 }
 .reactFridge_name{text-align:center;}
 .reactFridge_salad {background:white;}

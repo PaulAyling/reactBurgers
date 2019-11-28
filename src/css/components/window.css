@@ -1,12 +1,15 @@
 
 
-.codeContainer{
-  border:solid black 2px;
-  }
+
 
 .reactWindow_ContainerWidth{
-  width:500px
+  width:300px
 } 
+.reactWindow_border{
+  border:blue solid 20px;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
 .reactWindow_footer,.reactWindow_header{
     padding:1.5rem;
     text-align:center;

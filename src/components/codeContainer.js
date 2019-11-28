@@ -9,15 +9,17 @@ import "../css/components/paint.css";
 import "../css/components/fridge.css";
 import "../css/components/window.css";
 import "../css/components/menu.css";
+import "../css/components/burger.css";
 import CodeContainerMolecule from "./codeContainerMolecule";
 
 const CodeContainer = props => {
   const codeRender = props.Data.map(Data => {
     return (
-      <div id="codeContainer">
+      <div id="codeContainer" className={props.Styles[0].codeContainerWidth + " code-container"}>
         <p className="codeContainerName">{props.Data[0].componentName}</p>
-        <div className={props.Styles[0].componentBorder + " border"}>
-          <section id="try my molecule">
+        <div className={props.Styles[0].componentBorder} >
+          
+          <section id="MoleculeMadness">
             <CodeContainerMolecule
               CodeContainerMolecule_Id="Filename"
               CodeContainerMolecule_Style={props.Styles[0].filenameSection}
@@ -27,7 +29,7 @@ const CodeContainer = props => {
             <CodeContainerMolecule
               CodeContainerMolecule_Id="Imports"
               CodeContainerMolecule_Style={props.Styles[0].importsSection}
-              textIsCode="0"
+              textIsCode="1"
               text={Data.importPaths}
             />
             <CodeContainerMolecule
@@ -42,18 +44,24 @@ const CodeContainer = props => {
               textIsCode="1"
               text={Data.returnJsx}
             />
+            <CodeContainerMolecule
+              CodeContainerMolecule_Id="Export"
+              CodeContainerMolecule_Style={props.Styles[0].exportsSection}
+              textIsCode="0"
+              text={Data.exportComponent}
+            />
           </section>
         </div>
       </div>
+      
     );
   });
 
   return (
-    <div
-      id="Card Page"
-      className={props.Styles[0].codeContainerWidth + " code-container"}
-    >
+    <div id="Card Page" className={props.Styles[0].codeContainerWidth + " code-container"}>
+
       <Fragment>{codeRender}</Fragment>
+
     </div>
   );
 };
