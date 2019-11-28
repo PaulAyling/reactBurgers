@@ -36,13 +36,12 @@ const burgerData = AppData.data.filter(function(getFile){
   return getFile.folder === "burger"
 });
 const burgerStyles = AppData.styles.filter(function(getFile){
-  return getFile.component_Name ==
-
+  return getFile.component_Name === "burger"
+});
 const Home = () => {
 
   return (
     <div className="page-container">
- <h1>hello</h1>
         <div id="row 1" className="restaurant-row">
 
       <CodeContainer Data={CSSData} Styles={CSSStyles}/>
