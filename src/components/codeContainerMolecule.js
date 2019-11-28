@@ -14,7 +14,7 @@ const CodeContainerMolecule = (props) => {
       {props.text}
     </p>)
   return (
-    <section id={props.CodeContainerMolecule_Id} 
+    <section id={"Key: "+props.modKey}  key={props.modKey} 
     className={props.CodeContainerMolecule_Style +" padding-sm"}>
   {props.textIsCode === "1" ? (<pre> {props.text}</pre>) : child }
     </section>

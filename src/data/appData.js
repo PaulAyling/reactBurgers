@@ -1,6 +1,7 @@
 const AppData = {
   data: [
     {
+      id:"1",
       componentName:"BURGER",
       filename:"App.js",
       importPaths:`import React from 'react';
@@ -22,6 +23,7 @@ import ThemeContextProvider from './contexts/ThemeContext';`,
       exportComponent:"export default App;"
     },
     {
+      id:"2",
       componentName:"paint",
       filename:"CSS",
       importPaths:``,
@@ -33,6 +35,7 @@ import ThemeContextProvider from './contexts/ThemeContext';`,
     },
     
     {
+      id:"3",
       componentName:"fridge",
       filename:"Data Sources",
       importPaths:``,
@@ -43,6 +46,7 @@ import ThemeContextProvider from './contexts/ThemeContext';`,
       exportComponent:""
     },
     {
+      id:"4",
         componentName:"window",
       filename:"Public Folder",
       importPaths:``,
@@ -57,6 +61,7 @@ robots.txt`,
       exportComponent:""
     },
     {
+      id:"5",
       componentName:"menu",
       filename:"App.js",
       importPaths:`import React from 'react';
@@ -78,6 +83,8 @@ import ThemeContextProvider from './contexts/ThemeContext';`,
       exportComponent:"export default App;"
     },
     {
+      id:"6",
+      componentName:"burger",
       filename:"BookList.js",
       folder:"burger",
       importPaths:`import React, { Component } from 'react';
@@ -103,6 +110,8 @@ import { ThemeContext } from '../contexts/ThemeContext';`,
       exportComponent:"export default BookList;"
     },
     {
+      id:"7",
+      componentName:"layout",
       filename:"Navbar.js",
       folder:"burger",
       importPaths:`import React, { Component } from 'react';
@@ -130,6 +139,8 @@ import { ThemeContext } from '../contexts/ThemeContext';`,
       exportComponent:"export default Navbar;"
     },
     {
+      id:"8",
+      componentName:"Context",
       filename:"ThemeContext.js",
       folder:"burger",
       importPaths:`import React, { Component, createContext } from 'react';

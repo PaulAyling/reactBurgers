@@ -5,17 +5,17 @@ import CodeContainer from '../components/codeContainer';
 // CREATE PROPS FOR CODECONTAINERS
 //CSS
 const CSSData = AppData.data.filter(function(getFile){
-  return getFile.componentName == "paint"
+  return getFile.componentName === "paint"
 });
 const CSSStyles = AppData.styles.filter(function(getFile){
-  return getFile.component_Name == "paint"
+  return getFile.component_Name === "paint"
 });
 //Fridge
 const fridgeData = AppData.data.filter(function(getFile){
-  return getFile.componentName == "fridge"
+  return getFile.componentName === "fridge"
 });
 const fridgeStyles = AppData.styles.filter(function(getFile){
-  return getFile.component_Name == "fridge"
+  return getFile.component_Name === "fridge"
 });
 //window
 const windowData = AppData.data.filter(function(getFile){
@@ -26,24 +26,23 @@ const windowStyles = AppData.styles.filter(function(getFile){
 });
 //Menu
 const menuData = AppData.data.filter(function(getFile){
-  return getFile.componentName == "menu"
+  return getFile.componentName === "menu"
 });
 const menuStyles = AppData.styles.filter(function(getFile){
-  return getFile.component_Name == "menu"
+  return getFile.component_Name === "menu"
 });
 //Burger
 const burgerData = AppData.data.filter(function(getFile){
-  return getFile.folder == "burger"
+  return getFile.folder === "burger"
 });
 const burgerStyles = AppData.styles.filter(function(getFile){
-  return getFile.component_Name == "burger"
-});
+  return getFile.component_Name ==
 
 const Home = () => {
 
   return (
     <div className="page-container">
- 
+ <h1>hello</h1>
         <div id="row 1" className="restaurant-row">
 
       <CodeContainer Data={CSSData} Styles={CSSStyles}/>
@@ -56,10 +55,10 @@ const Home = () => {
         <div className={"floor"}></div>
          
         <div id ="row 2">
-        <CodeContainer Data={menuData} Styles={menuStyles}/>
+        {/* <CodeContainer Data={menuData} Styles={menuStyles}/> */}
         </div>
         <div id="row 3" className="burgerRow">
-          <CodeContainer Data={burgerData} Styles={burgerStyles}/>
+          {/* <CodeContainer Data={burgerData} Styles={burgerStyles}/> */}
 
         </div>
               <div className={"shelf"}>components</div>

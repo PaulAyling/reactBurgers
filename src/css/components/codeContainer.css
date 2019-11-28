@@ -16,6 +16,12 @@ pre{
 p {
   margin:0
 }
+.fragment-container{
+  display:flex;
+  align-items: stretch;
+}
+
+
 .onShelf{
   display:flex;
   flex-direction: row;
@@ -29,7 +35,6 @@ p {
 }
 .floor{
   height:30px;
-
   background:rgb(119, 118, 118);
   width:100%;
   text-align: center;
@@ -37,7 +42,7 @@ p {
 .restaurant-row{
   display:flex;
   justify-content: space-between;
-  align-items: flex-end
+  align-items: stretch 
 }
 
 .burgerRow{
@@ -58,8 +63,7 @@ flex-direction: row;
 .component-header{
   align-self:center;
 }
-.container-molecules{
-}
+
 .padding-sm{
   padding:5px;
 }
