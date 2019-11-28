@@ -5,7 +5,7 @@
   --codeContainer: coral;
   /* Dimensions */
   --height-row-1:20rem;
-  --width-row-1:10rem;
+  --width-row-1:20rem;
  }
 
 
@@ -40,6 +40,11 @@ p {
   align-items: flex-end
 }
 
+.burgerRow{
+display:flex;
+flex-direction: row;
+}
+
 .component-container{
   margin:5px;
   display:flex;
@@ -54,7 +59,6 @@ p {
   align-self:center;
 }
 .container-molecules{
-
 }
 .padding-sm{
   padding:5px;

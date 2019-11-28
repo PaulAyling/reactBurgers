@@ -79,6 +79,7 @@ import ThemeContextProvider from './contexts/ThemeContext';`,
     },
     {
       filename:"BookList.js",
+      folder:"burger",
       importPaths:`import React, { Component } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext';`,
       defineComponent:`lass BookList extends Component {
@@ -103,6 +104,7 @@ import { ThemeContext } from '../contexts/ThemeContext';`,
     },
     {
       filename:"Navbar.js",
+      folder:"burger",
       importPaths:`import React, { Component } from 'react';
       import { ThemeContext } from '../contexts/ThemeContext';`,
       defineComponent:`class Navbar extends Component {
@@ -129,6 +131,7 @@ import { ThemeContext } from '../contexts/ThemeContext';`,
     },
     {
       filename:"ThemeContext.js",
+      folder:"burger",
       importPaths:`import React, { Component, createContext } from 'react';
       export const ThemeContext = createContext();`,
       defineComponent:`class ThemeContextProvider extends Component {

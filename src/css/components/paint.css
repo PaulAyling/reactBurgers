@@ -1,11 +1,12 @@
 .paint_ContainerDimensions{
-  width:var(--width-row-1);
-  height:var(--height-row-1);
+
 }
   /* --height-row-1:20rem; */
 .reactCss_border{
   border-radius:0.3rem 0.3rem 0.3rem 0.3rem;
-  border:solid black  3px;
+  border:solid black  3px;  
+  width:200px;
+  height:250px;
   }
 
 .reactCss_footer,.reactCss_header{

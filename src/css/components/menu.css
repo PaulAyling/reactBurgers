@@ -1,5 +1,5 @@
 .reactMenu_ContainerDimensions{
-  width:800px;
+
   margin:auto;
   border: 10px solid gray;
 } 
@@ -7,7 +7,7 @@
 .reactMenu_bunBottom, .reactMenu_bun{
     padding:1.5rem;
     text-align:center;
-    background:yellow;
+    background:grey;
     background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
 }
 
@@ -20,8 +20,24 @@
   color:	black;
 }
 .reactMenu_name{text-align:center;}
-.reactMenu_salad {background:yellow;}
-.reactMenu_ketchup{background:yellow;}
+.reactMenu_salad {background:grey;}
+.reactMenu_ketchup{background:grey;}
 .reactMenu_pattie{background:yellow; background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=80);}
 .reactMenu_footer{background:yellow; background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);}
 
+<div id="Container-Molecules&amp;Header" class="container-molecules-and-header reactMenu_ContainerDimensions">
+
+<div class="component-header"> 
+
+<p class="codeContainerName">menu</p></div><section id="container-Molecules" class="container-molecules undefined"><section id="Filename" class="reactMenu_bun padding-sm"><p class="container_component_text">App.js</p></section><section id="Imports" class="reactMenu_salad padding-sm"><pre> import React from 'react';
+import BookList from './components/BookList';
+import Navbar from './components/Navbar';
+import ThemeContextProvider from './contexts/ThemeContext';</pre></section><section id="Definition" class="reactMenu_ketchup padding-sm"><pre> function App() {</pre></section><section id="Return" class="reactMenu_pattie padding-sm"><pre> return (
+        &lt;div className="App"&gt;
+          &lt;ThemeContextProvider&gt;
+            &lt;Navbar /&gt;
+            &lt;BookList /&gt;
+          &lt;/ThemeContextProvider&gt;
+        &lt;/div&gt;
+      );
+    }</pre></section><section id="Export" class="reactMenu_bunBottom padding-sm"><p class="container_component_text">export default App;</p></section></section></div>

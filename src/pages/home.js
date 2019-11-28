@@ -33,7 +33,7 @@ const menuStyles = AppData.styles.filter(function(getFile){
 });
 //Burger
 const burgerData = AppData.data.filter(function(getFile){
-  return getFile.filename == "App.js"
+  return getFile.folder == "burger"
 });
 const burgerStyles = AppData.styles.filter(function(getFile){
   return getFile.component_Name == "burger"
@@ -58,17 +58,11 @@ const Home = () => {
         <div id ="row 2">
         <CodeContainer Data={menuData} Styles={menuStyles}/>
         </div>
-        <div id="row 3">
+        <div id="row 3" className="burgerRow">
           <CodeContainer Data={burgerData} Styles={burgerStyles}/>
-          <h1>where is this</h1>
-          <div className="onShelf">
 
-          </div>
-
-          <div className={"shelf"}>components</div>
-          
         </div>
-    
+              <div className={"shelf"}>components</div>
  
     </div>
   );
