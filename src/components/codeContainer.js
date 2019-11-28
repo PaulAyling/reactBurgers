@@ -17,7 +17,7 @@ const CodeContainer = props => {
     
     return (
       <div id="Component Container-" className=" component-container">
-        <div id="Container-Molecules&Header" className={"container-molecules-and-header "+ props.Styles[0].ContainerDimensions} >
+        <div id="Container-Molecules-and-Header" className={"container-molecules-and-header "+ props.Styles[0].ContainerDimensions} >
          <div className="component-header"> <p className="codeContainerName">{props.Data[0].componentName}</p>
          </div>
 
