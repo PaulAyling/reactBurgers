@@ -1,3 +1,14 @@
+/* codecontainer Variables */
+
+#codeContainer {
+  /* color Pallete */
+  --codeContainer: coral;
+  /* Dimensions */
+  --height-row-1:20rem;
+  --width-row-1:10rem;
+ }
+
+
 /* CodeContainer Styles */
 pre{
   margin:0;
@@ -16,15 +27,34 @@ p {
   width:100%;
   text-align: center;
 }
+.floor{
+  height:30px;
+
+  background:rgb(119, 118, 118);
+  width:100%;
+  text-align: center;
+}
 .restaurant-row{
   display:flex;
   justify-content: space-between;
   align-items: flex-end
 }
 
-.code-container{
+.component-container{
   margin:5px;
-  
+  display:flex;
+  align-items: flex-end
+}
+.container-molecules-and-header{
+  display:flex;
+  align-items: flex-end;
+  flex-direction:column;
+}
+.component-header{
+  align-self:center;
+}
+.container-molecules{
+
 }
 .padding-sm{
   padding:5px;
@@ -37,14 +67,12 @@ p {
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
+
 }
 
 
 .component_grid {
   display: flex;
   flex-direction: row;
-}
-.codeContainer{
-margin:0 3px 0 3px;
 
 }

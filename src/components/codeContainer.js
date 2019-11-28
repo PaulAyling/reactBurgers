@@ -14,12 +14,14 @@ import CodeContainerMolecule from "./codeContainerMolecule";
 
 const CodeContainer = props => {
   const codeRender = props.Data.map(Data => {
+    
     return (
-      <div id="codeContainer" className={props.Styles[0].codeContainerWidth + " code-container"}>
-        <p className="codeContainerName">{props.Data[0].componentName}</p>
-        <div className={props.Styles[0].componentBorder} >
-          
-          <section id="MoleculeMadness">
+      <div id="Component Container-" className=" component-container">
+        <div id="Container-Molecules&Header" className={"container-molecules-and-header "+ props.Styles[0].ContainerDimensions} >
+         <div className="component-header"> <p className="codeContainerName">{props.Data[0].componentName}</p>
+         </div>
+
+          <section id="container-Molecules" className={"container-molecules "+props.Styles[0].componentBorder}>
             <CodeContainerMolecule
               CodeContainerMolecule_Id="Filename"
               CodeContainerMolecule_Style={props.Styles[0].filenameSection}
@@ -52,17 +54,14 @@ const CodeContainer = props => {
             />
           </section>
         </div>
+
       </div>
       
     );
   });
 
   return (
-    <div id="Card Page" className={props.Styles[0].codeContainerWidth + " code-container"}>
-
       <Fragment>{codeRender}</Fragment>
-
-    </div>
   );
 };
 

@@ -47,12 +47,14 @@ const Home = () => {
         <div id="row 1" className="restaurant-row">
 
       <CodeContainer Data={CSSData} Styles={CSSStyles}/>
-      <CodeContainer Data={fridgeData} Styles={fridgeStyles}/>
       <CodeContainer Data={windowData} Styles={windowStyles}/>
+      <CodeContainer Data={fridgeData} Styles={fridgeStyles}/>
 
 
 
         </div>
+        <div className={"floor"}></div>
+         
         <div id ="row 2">
         <CodeContainer Data={menuData} Styles={menuStyles}/>
         </div>

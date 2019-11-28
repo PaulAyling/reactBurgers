@@ -34,9 +34,9 @@ import ThemeContextProvider from './contexts/ThemeContext';`,
     
     {
       componentName:"fridge",
-      filename:"myFile.json",
+      filename:"Data Sources",
       importPaths:``,
-      defineComponent:``,
+      defineComponent:`myFile.json`,
       variablesAndFunctions:"",
       returnJsx:``,
       definePrototypes:"",
@@ -44,7 +44,7 @@ import ThemeContextProvider from './contexts/ThemeContext';`,
     },
     {
         componentName:"window",
-      filename:"Public",
+      filename:"Public Folder",
       importPaths:``,
       defineComponent:`favicon.ico
 index.html
@@ -151,7 +151,7 @@ return (
   styles:[
     {
       component_Name:"paint",
-      codeContainerWidth:"paint_ContainerWidth",
+      ContainerDimensions:"paint_ContainerDimensions",
       componentBorder: "reactCss_border",
       filenameSection:"reactCss_header",
       filename:"reactCss_name",
@@ -163,7 +163,7 @@ return (
     },
     {
       component_Name:"fridge",
-      codeContainerWidth:"reactFridge_ContainerWidth",
+      ContainerDimensions:"reactFridge_ContainerDimensions",
       componentBorder: "reactFridge_border",
       filenameSection:"reactFridge_header",
       filename:"reactFridge_name",
@@ -175,7 +175,7 @@ return (
     },
     {
       component_Name:"window",
-      codeContainerWidth:"reactWindow_ContainerWidth",
+      ContainerDimensions:"reactWindow_ContainerDimensions",
       componentBorder: "reactWindow_border",
       filenameSection:"reactWindow_header",
       filename:"reactWindow_name",
@@ -186,7 +186,7 @@ return (
     },
     {
       component_Name:"menu",
-      codeContainerWidth:"reactMenu_ContainerWidth",
+      ContainerDimensions:"reactMenu_ContainerDimensions",
       filenameSection:"reactMenu_bun",
       filename:"reactMenu_name",
       importsSection:"reactMenu_salad",
@@ -197,7 +197,7 @@ return (
     },
     {
       component_Name:"burger",
-      codeContainerWidth:"reactBurger_ContainerWidth",
+      ContainerDimensions:"reactBurger_ContainerDimensions",
       filenameSection:"reactBurger_bun",
       filename:"reactBurger_name",
       importsSection:"reactBurger_salad",

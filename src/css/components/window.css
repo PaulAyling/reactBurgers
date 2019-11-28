@@ -1,33 +1,27 @@
 
 
-
-
-.reactWindow_ContainerWidth{
-  width:300px
-} 
 .reactWindow_border{
-  border:blue solid 20px;
   border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border:blue solid 20px;
+  /* width override from style moleculeContainer */
+  width:500px!important;
 }
 
 .reactWindow_footer,.reactWindow_header{
-    padding:1.5rem;
     text-align:center;
-    background:lightblue;
-
+    background:#e3f2fd ;
 }
 
 .reactWindow_salad
 ,.reactWindow_ketchup
 ,.reactWindow_pattie
   {
-  padding:0.8rem 0.8rem 0.8rem 1rem;
   text-align:left;
   color:	#f8f8ff;
 }
 .reactWindow_name{text-align:center;}
-.reactWindow_salad {background:lightblue;}
-.reactWindow_ketchup{background:lightblue;}
-.reactWindow_pattie{background:lightblue;}
-.reactWindow_footer{background:lightblue;;}
+.reactWindow_salad {background:#e3f2fd ;color:black}
+.reactWindow_ketchup{background:#e3f2fd ;color:black}
+.reactWindow_pattie{background:#e3f2fd ;color:black}
+.reactWindow_footer{background:#e3f2fd ;}
 
