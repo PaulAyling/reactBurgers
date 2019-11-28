@@ -54,10 +54,10 @@ const Home = () => {
         <div className={"floor"}></div>
          
         <div id ="row 2">
-        {/* <CodeContainer Data={menuData} Styles={menuStyles}/> */}
+        <CodeContainer Data={menuData} Styles={menuStyles}/>
         </div>
         <div id="row 3" className="burgerRow">
-          {/* <CodeContainer Data={burgerData} Styles={burgerStyles}/> */}
+          <CodeContainer Data={burgerData} Styles={burgerStyles}/>
 
         </div>
               <div className={"shelf"}>components</div>
